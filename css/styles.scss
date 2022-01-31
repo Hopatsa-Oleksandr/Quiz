@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+.quiz {
+  margin: 0 auto;
+  width: 600;
+}
+
+.quiz-questions,
+.quiz-indicator {
+  margin-bottom: 20px;
+}
+
+.quiz-questions-item {
+  &__question {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  &__answers {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+}
+
+.quiz-indicator {
+}
+
+.btn-next {
+}
+
+.btn-restart {
+  display: none;
+}
